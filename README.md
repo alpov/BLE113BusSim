@@ -1,5 +1,16 @@
 # BLE113BusSim
-Testing framework for Bluegiga BLE113 with MSP432
+Testing framework for Bluegiga BLE113 with MSP432. Provides a method to test Bluetooth Low Energy throughput (Bluegiga BLE113) on MSP432 Launchpad boards (TI MSP-EXP432P401R).
+
+### Required hardware
+* CC-Debugger http://www.ti.com/tool/cc-debugger
+* MSP-EXP432P401R Launchpads http://www.ti.com/tool/msp-exp432p401r
+* Bluegiga BLE113 modules
+
+## Required tools and software
+* SmartRF Flash Programmer v1 http://www.ti.com/tool/flash-programmer (v1.12.8)
+* Bluegiga Bluetooth Smart Software Stack https://www.silabs.com/products/wireless/bluetooth/bluetooth-smart-modules/Pages/bluegiga-bluetooth-smart-software-stack.aspx (v1.4.2)
+* TI Code Composer Studio http://processors.wiki.ti.com/index.php/Download_CCS (v6.2.0.00050)
+* MSP432 Driver Library http://www.ti.com/tool/mspdriverlib (v.3.21.00.05)
 
 ### Random notes from BLE development
 * BLE113 uses UART communication. To achieve the highest possible throughput, use at least 1MBaud.
