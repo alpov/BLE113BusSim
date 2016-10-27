@@ -1,0 +1,8 @@
+Debug
+targetConfigs
+.launches
+.settings
+/rom
+/driverlib
+/msp432p4xx_driverlib.lib
+/ble113-bgproj/out-ble113.hex

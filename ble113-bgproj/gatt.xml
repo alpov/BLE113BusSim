@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<configuration>
+
+    <service uuid="1800">
+      <description>Generic Access Profile</description>
+
+      <characteristic uuid="2a00">
+        <properties read="true" const="true" />
+        <value>Delfi-PQ BLE Demo</value>
+      </characteristic>
+
+      <characteristic uuid="2a01">
+        <properties read="true" const="true" />
+        <value type="hex">4142</value>
+      </characteristic>
+    </service>
+    
+    <service uuid="0bd51666-e7cb-469b-8e4d-2742f1ba77cc" advertise="true">
+        <description>BLE Slave Device</description>
+        
+        <characteristic uuid="2c1ae3fb-ca95-4331-80a0-8884b5e69e54" id="xgatt_command">
+            <description>Command Master-to-Slave</description>
+            <properties write="true" />
+            <value variable_length="false" length="2" />
+        </characteristic>
+        <characteristic uuid="c2c8e898-cecc-4d32-992c-5707cae11c9b" id="xgatt_data">
+            <description>Data Master-to-Slave or Slave-to-Master</description>
+            <properties read="true" write="true" />
+            <value variable_length="true" length="250" type="user" />
+        </characteristic>
+        <characteristic uuid="2868ad11-e444-4ec3-b666-0ca5fe05a312" id="xgatt_benchmark">
+            <description>Throughput Benchmark</description>
+            <properties read="true" write="true" />
+            <value variable_length="true" length="22" />
+        </characteristic>
+    </service>
+    
+</configuration>

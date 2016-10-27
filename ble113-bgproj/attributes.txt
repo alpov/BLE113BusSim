@@ -1,0 +1,3 @@
+xgatt_command 8
+xgatt_data 11
+xgatt_benchmark 14

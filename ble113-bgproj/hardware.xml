@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<hardware>
+    <sleeposc enable="true" ppm="30" />
+    <usb enable="false" endpoint="none" />
+    <txpower power="15" bias="5" />
+    <usart channel="1" alternate="1" baud="1000000"  endpoint="api" flow="false" mode="packet" />
+    <sleep enable="true" />
+    <wakeup_pin enable="true" port="0" pin="0" state="up" />
+    <port index="0" tristatemask="0" pull="down" />
+    <port index="1" tristatemask="0" pull="down" />
+    <port index="2" tristatemask="0" pull="down" />
+    <pmux regulator_pin="7" />
+    <uartboot channel="1" />
+</hardware>
