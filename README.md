@@ -6,7 +6,7 @@ Testing framework for Bluegiga BLE113 with MSP432. Provides a method to test Blu
 * MSP-EXP432P401R Launchpads http://www.ti.com/tool/msp-exp432p401r
 * Bluegiga BLE113 modules
 
-## Required tools and software
+### Required tools and software
 * SmartRF Flash Programmer v1 http://www.ti.com/tool/flash-programmer (v1.12.8)
 * Bluegiga Bluetooth Smart Software Stack https://www.silabs.com/products/wireless/bluetooth/bluetooth-smart-modules/Pages/bluegiga-bluetooth-smart-software-stack.aspx (v1.4.2)
 * TI Code Composer Studio http://processors.wiki.ti.com/index.php/Download_CCS (v6.2.0.00050)
