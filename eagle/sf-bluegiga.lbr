@@ -1,0 +1,520 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE eagle SYSTEM "eagle.dtd">
+<eagle version="7.5.0">
+<drawing>
+<settings>
+<setting alwaysvectorfont="no"/>
+<setting verticaltext="up"/>
+</settings>
+<grid distance="0.05" unitdist="inch" unit="mm" style="lines" multiple="1" display="yes" altdistance="0.025" altunitdist="inch" altunit="inch"/>
+<layers>
+<layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
+<layer number="2" name="Route2" color="1" fill="3" visible="no" active="yes"/>
+<layer number="3" name="Route3" color="4" fill="3" visible="no" active="yes"/>
+<layer number="4" name="Route4" color="1" fill="4" visible="no" active="yes"/>
+<layer number="5" name="Route5" color="4" fill="4" visible="no" active="yes"/>
+<layer number="6" name="Route6" color="1" fill="8" visible="no" active="yes"/>
+<layer number="7" name="Route7" color="4" fill="8" visible="no" active="yes"/>
+<layer number="8" name="Route8" color="1" fill="2" visible="no" active="yes"/>
+<layer number="9" name="Route9" color="4" fill="2" visible="no" active="yes"/>
+<layer number="10" name="Route10" color="1" fill="7" visible="no" active="yes"/>
+<layer number="11" name="Route11" color="4" fill="7" visible="no" active="yes"/>
+<layer number="12" name="Route12" color="1" fill="5" visible="no" active="yes"/>
+<layer number="13" name="Route13" color="4" fill="5" visible="no" active="yes"/>
+<layer number="14" name="Route14" color="1" fill="6" visible="no" active="yes"/>
+<layer number="15" name="Route15" color="4" fill="6" visible="no" active="yes"/>
+<layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
+<layer number="17" name="Pads" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="18" name="Vias" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="yes"/>
+<layer number="20" name="Dimension" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="22" name="bPlace" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="25" name="tNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="26" name="bNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="27" name="tValues" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="28" name="bValues" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="29" name="tStop" color="7" fill="3" visible="no" active="yes"/>
+<layer number="30" name="bStop" color="7" fill="6" visible="no" active="yes"/>
+<layer number="31" name="tCream" color="7" fill="4" visible="no" active="yes"/>
+<layer number="32" name="bCream" color="7" fill="5" visible="no" active="yes"/>
+<layer number="33" name="tFinish" color="6" fill="3" visible="no" active="yes"/>
+<layer number="34" name="bFinish" color="6" fill="6" visible="no" active="yes"/>
+<layer number="35" name="tGlue" color="7" fill="4" visible="no" active="yes"/>
+<layer number="36" name="bGlue" color="7" fill="5" visible="no" active="yes"/>
+<layer number="37" name="tTest" color="7" fill="1" visible="no" active="yes"/>
+<layer number="38" name="bTest" color="7" fill="1" visible="no" active="yes"/>
+<layer number="39" name="tKeepout" color="4" fill="11" visible="yes" active="yes"/>
+<layer number="40" name="bKeepout" color="1" fill="11" visible="yes" active="yes"/>
+<layer number="41" name="tRestrict" color="4" fill="10" visible="yes" active="yes"/>
+<layer number="42" name="bRestrict" color="1" fill="10" visible="yes" active="yes"/>
+<layer number="43" name="vRestrict" color="2" fill="10" visible="yes" active="yes"/>
+<layer number="44" name="Drills" color="7" fill="1" visible="no" active="yes"/>
+<layer number="45" name="Holes" color="7" fill="1" visible="no" active="yes"/>
+<layer number="46" name="Milling" color="3" fill="1" visible="no" active="yes"/>
+<layer number="47" name="Measures" color="7" fill="1" visible="no" active="yes"/>
+<layer number="48" name="Document" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="49" name="Reference" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="50" name="dxf" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="51" name="tDocu" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="52" name="bDocu" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="53" name="tGND_GNDA" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="54" name="bGND_GNDA" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="56" name="wert" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="59" name="Invisible" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="61" name="stand" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="90" name="Modules" color="5" fill="1" visible="yes" active="yes"/>
+<layer number="91" name="Nets" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="92" name="Busses" color="1" fill="1" visible="yes" active="yes"/>
+<layer number="93" name="Pins" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="94" name="Symbols" color="4" fill="1" visible="yes" active="yes"/>
+<layer number="95" name="Names" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="96" name="Values" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="97" name="Info" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="98" name="Guide" color="6" fill="1" visible="yes" active="yes"/>
+<layer number="99" name="Invisibles" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="100" name="Muster" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="101" name="Patch_Top" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="102" name="Vscore" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="103" name="tMap" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="104" name="Name" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="105" name="tPlate" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="106" name="bPlate" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="107" name="Crop" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="108" name="fp8" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="109" name="fp9" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="110" name="fp0" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="111" name="LPC17xx" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="112" name="2Restrict" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="116" name="Patch_BOT" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="121" name="_tsilk" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="122" name="_bsilk" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="123" name="tTestmark" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="124" name="bTestmark" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="125" name="_tNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="126" name="_bNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="127" name="_tValues" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="128" name="_bValues" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="130" name="bLogo" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="131" name="tAdjust" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="132" name="bAdjust" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="144" name="Drill_legend" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="151" name="HeatSink" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="152" name="_bDocu" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="199" name="Contour" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="200" name="200bmp" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="201" name="201bmp" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="202" name="202bmp" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="203" name="203bmp" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="204" name="204bmp" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="205" name="205bmp" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="206" name="206bmp" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="207" name="207bmp" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="208" name="208bmp" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="209" name="209bmp" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="210" name="210bmp" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="211" name="211bmp" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="212" name="212bmp" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="213" name="213bmp" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="214" name="214bmp" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="215" name="215bmp" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="216" name="216bmp" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="217" name="217bmp" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="218" name="218bmp" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="219" name="219bmp" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="220" name="220bmp" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="221" name="221bmp" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="222" name="222bmp" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="223" name="223bmp" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="224" name="224bmp" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="231" name="Eagle3D_PG1" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="232" name="Eagle3D_PG2" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="233" name="Eagle3D_PG3" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="248" name="Housing" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="249" name="Edge" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="250" name="Descript" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="251" name="SMDround" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="254" name="cooling" color="7" fill="1" visible="yes" active="yes"/>
+</layers>
+<library>
+<packages>
+<package name="BLE113-A">
+<description>&lt;p&gt;Bluetooth Low Energy single-mode module - Bluetooth 4.0 (CC2541). BLE113-A variant has an on-module ceramic chip antenna.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;BLE113-A variant includes keepout/restrict area. Antenna edge of the module should be flush up against the edge of the PCB. See datasheet for variant layout details.&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;The BLE113 is a Bluetooth Smart module targeted for small and low-power sensors and accessories. It integrates all features required for a Bluetooth Smart application, including Bluetooth radio, software stack, and GATT-based profiles. The BLE113 Bluetooth Smart module can also host end-user applications, which means no external micro controller is required in size or price constrained devices. Moreover, it has flexible hardware interfaces to connect to different peripherals and sensors and can be powered directly from a standard 3V coin cell battery or a pair of AAA batteries.&lt;/p&gt;
+&lt;p&gt;In the lowest power sleep mode it merely consumes 500 nA and will wake up within a few hundred microseconds.&lt;/p&gt;
+&lt;p&gt;The BLE113 Bluetooth Smart module conusmer approximately 30% less power and is smaller than the BLE112 Bluetooth Smart Module.&lt;/p&gt;
+&lt;p&gt;&lt;a href="http://www.bluegiga.com/en-US/products/bluetooth-4.0-modules/ble113-bluetooth--smart-module"&gt;http://www.bluegiga.com/en-US/products/bluetooth-4.0-modules/ble113-bluetooth--smart-module&lt;/a&gt;&lt;br /&gt;&lt;a href="https://github.com/jrowberg/sf-oshw"&gt;https://github.com/jrowberg/sf-oshw&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;Last updated 2014-01-04 by Jeff Rowberg &amp;lt;jeff@rowberg.net&amp;gt;&lt;/em&gt;&lt;/p&gt;</description>
+<wire x1="-4.575" y1="-7.8625" x2="-4.575" y2="7.8625" width="0.127" layer="21"/>
+<wire x1="-4.575" y1="7.8625" x2="4.575" y2="7.8625" width="0.127" layer="21"/>
+<wire x1="4.575" y1="7.8625" x2="4.575" y2="-7.8625" width="0.127" layer="21"/>
+<wire x1="4.575" y1="-7.8625" x2="-4.575" y2="-7.8625" width="0.127" layer="21"/>
+<rectangle x1="-1.075" y1="3" x2="10" y2="7.8625" layer="39"/>
+<rectangle x1="-1.075" y1="3" x2="10" y2="7.8625" layer="40"/>
+<rectangle x1="-1.075" y1="3" x2="10" y2="7.8625" layer="41"/>
+<rectangle x1="-1.075" y1="3" x2="10" y2="7.8625" layer="42"/>
+<rectangle x1="-1.075" y1="3" x2="10" y2="7.8625" layer="43"/>
+<rectangle x1="1" y1="6" x2="4" y2="7" layer="51"/>
+<smd name="AVDD" x="-4.025" y="1.5375" dx="0.5" dy="2.6" layer="1" roundness="100" rot="R90"/>
+<smd name="DVDD" x="-4.025" y="-5.6625" dx="0.5" dy="2.6" layer="1" roundness="100" rot="R90"/>
+<smd name="GND" x="-4.025" y="7.1375" dx="0.5" dy="2.6" layer="1" roundness="100" rot="R90"/>
+<smd name="GND@2" x="-4.025" y="6.3375" dx="0.5" dy="2.6" layer="1" roundness="100" rot="R90"/>
+<smd name="GND@3" x="-4.025" y="5.5375" dx="0.5" dy="2.6" layer="1" roundness="100" rot="R90"/>
+<smd name="GND@4" x="-4.025" y="4.7375" dx="0.5" dy="2.6" layer="1" roundness="100" rot="R90"/>
+<smd name="GND@5" x="-4.025" y="3.9375" dx="0.5" dy="2.6" layer="1" roundness="100" rot="R90"/>
+<smd name="GND@6" x="-4.025" y="3.1375" dx="0.5" dy="2.6" layer="1" roundness="100" rot="R90"/>
+<smd name="GND@7" x="-4.025" y="2.3375" dx="0.5" dy="2.6" layer="1" roundness="100" rot="R90"/>
+<smd name="GND@8" x="-4.025" y="-6.4625" dx="0.5" dy="2.6" layer="1" roundness="100" rot="R90"/>
+<smd name="GND@9" x="4.025" y="-6.4625" dx="0.5" dy="2.6" layer="1" roundness="100" rot="R90"/>
+<smd name="GND@10" x="4.025" y="2.3375" dx="0.5" dy="2.6" layer="1" roundness="100" rot="R90"/>
+<smd name="NC" x="-4.025" y="-4.8625" dx="0.5" dy="2.6" layer="1" roundness="100" rot="R90"/>
+<smd name="NC@2" x="4.025" y="1.5375" dx="0.5" dy="2.6" layer="1" roundness="100" rot="R90"/>
+<smd name="P0_0" x="4.025" y="-0.0625" dx="0.5" dy="2.6" layer="1" roundness="100" rot="R90"/>
+<smd name="P0_1" x="4.025" y="-0.8625" dx="0.5" dy="2.6" layer="1" roundness="100" rot="R90"/>
+<smd name="P0_2" x="4.025" y="-1.6625" dx="0.5" dy="2.6" layer="1" roundness="100" rot="R90"/>
+<smd name="P0_3" x="4.025" y="-2.4625" dx="0.5" dy="2.6" layer="1" roundness="100" rot="R90"/>
+<smd name="P0_4" x="4.025" y="-3.2625" dx="0.5" dy="2.6" layer="1" roundness="100" rot="R90"/>
+<smd name="P0_5" x="4.025" y="-4.0625" dx="0.5" dy="2.6" layer="1" roundness="100" rot="R90"/>
+<smd name="P0_6" x="4.025" y="-4.8625" dx="0.5" dy="2.6" layer="1" roundness="100" rot="R90"/>
+<smd name="P0_7" x="4.025" y="-5.6625" dx="0.5" dy="2.6" layer="1" roundness="100" rot="R90"/>
+<smd name="P1_0" x="2" y="-7.3125" dx="0.5" dy="2.6" layer="1" roundness="100"/>
+<smd name="P1_1" x="1.2" y="-7.3125" dx="0.5" dy="2.6" layer="1" roundness="100"/>
+<smd name="P1_2" x="0.4" y="-7.3125" dx="0.5" dy="2.6" layer="1" roundness="100"/>
+<smd name="P1_3" x="-0.4" y="-7.3125" dx="0.5" dy="2.6" layer="1" roundness="100" rot="R180"/>
+<smd name="P1_4" x="-1.2" y="-7.3125" dx="0.5" dy="2.6" layer="1" roundness="100" rot="R180"/>
+<smd name="P1_5" x="-2" y="-7.3125" dx="0.5" dy="2.6" layer="1" roundness="100" rot="R180"/>
+<smd name="P1_6" x="-4.025" y="-2.4625" dx="0.5" dy="2.6" layer="1" roundness="100" rot="R90"/>
+<smd name="P1_7" x="-4.025" y="-1.6625" dx="0.5" dy="2.6" layer="1" roundness="100" rot="R90"/>
+<smd name="P2_0" x="-4.025" y="-0.8625" dx="0.5" dy="2.6" layer="1" roundness="100" rot="R90"/>
+<smd name="P2_1" x="-4.025" y="-0.0625" dx="0.5" dy="2.6" layer="1" roundness="100" rot="R90"/>
+<smd name="P2_2" x="-4.025" y="0.7375" dx="0.5" dy="2.6" layer="1" roundness="100" rot="R90"/>
+<smd name="RESET" x="4.025" y="0.7375" dx="0.5" dy="2.6" layer="1" roundness="100" rot="R90"/>
+<smd name="SCL" x="-4.025" y="-3.2625" dx="0.5" dy="2.6" layer="1" roundness="100" rot="R90"/>
+<smd name="SDA" x="-4.025" y="-4.0625" dx="0.5" dy="2.6" layer="1" roundness="100" rot="R90"/>
+<text x="-2.3" y="6.85" size="0.6096" layer="51" rot="SR0">1</text>
+<text x="-4" y="-7.55" size="0.6096" layer="51" rot="SR0">18</text>
+<text x="3" y="-7.55" size="0.6096" layer="51" rot="SR0">25</text>
+<text x="1.35" y="2.05" size="0.6096" layer="51" rot="SR0">36</text>
+<text x="-4.55" y="8.15" size="1.016" layer="25" rot="SR0">&gt;NAME</text>
+<text x="-4.55" y="-9.2" size="1.016" layer="27" rot="SR0">&gt;VALUE</text>
+</package>
+<package name="TSSOP14">
+<description>&lt;b&gt;Thin Shrink Small Outline Plastic 14&lt;/b&gt;&lt;p&gt;
+MAX3223-MAX3243.pdf</description>
+<wire x1="-2.5146" y1="-2.2828" x2="2.5146" y2="-2.2828" width="0.1524" layer="21"/>
+<wire x1="2.5146" y1="2.2828" x2="2.5146" y2="-2.2828" width="0.1524" layer="21"/>
+<wire x1="2.5146" y1="2.2828" x2="-2.5146" y2="2.2828" width="0.1524" layer="21"/>
+<wire x1="-2.5146" y1="-2.2828" x2="-2.5146" y2="2.2828" width="0.1524" layer="21"/>
+<wire x1="-2.286" y1="-2.0542" x2="2.286" y2="-2.0542" width="0.0508" layer="21"/>
+<wire x1="2.286" y1="2.0542" x2="2.286" y2="-2.0542" width="0.0508" layer="21"/>
+<wire x1="2.286" y1="2.0542" x2="-2.286" y2="2.0542" width="0.0508" layer="21"/>
+<wire x1="-2.286" y1="-2.0542" x2="-2.286" y2="2.0542" width="0.0508" layer="21"/>
+<circle x="-1.6256" y="-1.2192" radius="0.4572" width="0.1524" layer="21"/>
+<smd name="1" x="-1.95" y="-2.9178" dx="0.3048" dy="0.9906" layer="1"/>
+<smd name="2" x="-1.3" y="-2.9178" dx="0.3048" dy="0.9906" layer="1"/>
+<smd name="3" x="-0.65" y="-2.9178" dx="0.3048" dy="0.9906" layer="1"/>
+<smd name="4" x="0" y="-2.9178" dx="0.3048" dy="0.9906" layer="1"/>
+<smd name="5" x="0.65" y="-2.9178" dx="0.3048" dy="0.9906" layer="1"/>
+<smd name="6" x="1.3" y="-2.9178" dx="0.3048" dy="0.9906" layer="1"/>
+<smd name="7" x="1.95" y="-2.9178" dx="0.3048" dy="0.9906" layer="1"/>
+<smd name="8" x="1.95" y="2.9178" dx="0.3048" dy="0.9906" layer="1"/>
+<smd name="9" x="1.3" y="2.9178" dx="0.3048" dy="0.9906" layer="1"/>
+<smd name="10" x="0.65" y="2.9178" dx="0.3048" dy="0.9906" layer="1"/>
+<smd name="11" x="0" y="2.9178" dx="0.3048" dy="0.9906" layer="1"/>
+<smd name="12" x="-0.65" y="2.9178" dx="0.3048" dy="0.9906" layer="1"/>
+<smd name="13" x="-1.3" y="2.9178" dx="0.3048" dy="0.9906" layer="1"/>
+<smd name="14" x="-1.95" y="2.9178" dx="0.3048" dy="0.9906" layer="1"/>
+<text x="-2.8956" y="-2.0828" size="1.016" layer="25" ratio="10" rot="R90">&gt;NAME</text>
+<text x="3.8862" y="-2.0828" size="1.016" layer="27" ratio="10" rot="R90">&gt;VALUE</text>
+<rectangle x1="-2.0516" y1="-3.121" x2="-1.8484" y2="-2.2828" layer="51"/>
+<rectangle x1="-1.4016" y1="-3.121" x2="-1.1984" y2="-2.2828" layer="51"/>
+<rectangle x1="-0.7516" y1="-3.121" x2="-0.5484" y2="-2.2828" layer="51"/>
+<rectangle x1="-0.1016" y1="-3.121" x2="0.1016" y2="-2.2828" layer="51"/>
+<rectangle x1="0.5484" y1="-3.121" x2="0.7516" y2="-2.2828" layer="51"/>
+<rectangle x1="1.1984" y1="-3.121" x2="1.4016" y2="-2.2828" layer="51"/>
+<rectangle x1="1.8484" y1="-3.121" x2="2.0516" y2="-2.2828" layer="51"/>
+<rectangle x1="1.8484" y1="2.2828" x2="2.0516" y2="3.121" layer="51"/>
+<rectangle x1="1.1984" y1="2.2828" x2="1.4016" y2="3.121" layer="51"/>
+<rectangle x1="0.5484" y1="2.2828" x2="0.7516" y2="3.121" layer="51"/>
+<rectangle x1="-0.1016" y1="2.2828" x2="0.1016" y2="3.121" layer="51"/>
+<rectangle x1="-0.7516" y1="2.2828" x2="-0.5484" y2="3.121" layer="51"/>
+<rectangle x1="-1.4016" y1="2.2828" x2="-1.1984" y2="3.121" layer="51"/>
+<rectangle x1="-2.0516" y1="2.2828" x2="-1.8484" y2="3.121" layer="51"/>
+</package>
+<package name="TSSOP8">
+<description>&lt;b&gt;Plastic Small Outline&lt;/b&gt;</description>
+<wire x1="-2.15" y1="-1.4" x2="2.15" y2="-1.4" width="0.2032" layer="21"/>
+<wire x1="2.15" y1="-1.4" x2="2.15" y2="1.4" width="0.2032" layer="21"/>
+<wire x1="2.15" y1="1.4" x2="-2.15" y2="1.4" width="0.2032" layer="21"/>
+<wire x1="-2.15" y1="1.4" x2="-2.15" y2="-1.4" width="0.2032" layer="21"/>
+<circle x="-1.625" y="0.65" radius="0.325" width="0" layer="21"/>
+<smd name="1" x="-2.925" y="0.975" dx="1.2" dy="0.35" layer="1"/>
+<smd name="2" x="-2.925" y="0.325" dx="1.2" dy="0.35" layer="1"/>
+<smd name="3" x="-2.925" y="-0.325" dx="1.2" dy="0.35" layer="1"/>
+<smd name="4" x="-2.925" y="-0.975" dx="1.2" dy="0.35" layer="1"/>
+<smd name="5" x="2.925" y="-0.975" dx="1.2" dy="0.35" layer="1"/>
+<smd name="6" x="2.925" y="-0.325" dx="1.2" dy="0.35" layer="1"/>
+<smd name="7" x="2.925" y="0.325" dx="1.2" dy="0.35" layer="1"/>
+<smd name="8" x="2.925" y="0.975" dx="1.2" dy="0.35" layer="1"/>
+<text x="-2.925" y="1.625" size="1.27" layer="25">&gt;NAME</text>
+<text x="-3.25" y="-2.925" size="1.27" layer="27">&gt;VALUE</text>
+<rectangle x1="-3.2" y1="0.85" x2="-2.2" y2="1.1" layer="51"/>
+<rectangle x1="-3.2" y1="0.2" x2="-2.2" y2="0.45" layer="51"/>
+<rectangle x1="-3.2" y1="-0.45" x2="-2.2" y2="-0.2" layer="51"/>
+<rectangle x1="-3.2" y1="-1.1" x2="-2.2" y2="-0.85" layer="51"/>
+<rectangle x1="2.2" y1="-1.1" x2="3.2" y2="-0.85" layer="51"/>
+<rectangle x1="2.2" y1="-0.45" x2="3.2" y2="-0.2" layer="51"/>
+<rectangle x1="2.2" y1="0.2" x2="3.2" y2="0.45" layer="51"/>
+<rectangle x1="2.2" y1="0.85" x2="3.2" y2="1.1" layer="51"/>
+</package>
+<package name="SO8">
+<description>&lt;b&gt;SMALL OUTLINE INTEGRATED CIRCUIT&lt;/b&gt;</description>
+<wire x1="2.4" y1="1.9" x2="2.4" y2="-1.4" width="0.2032" layer="51"/>
+<wire x1="2.4" y1="-1.4" x2="2.4" y2="-1.9" width="0.2032" layer="51"/>
+<wire x1="2.4" y1="-1.9" x2="-2.4" y2="-1.9" width="0.2032" layer="51"/>
+<wire x1="-2.4" y1="-1.9" x2="-2.4" y2="-1.4" width="0.2032" layer="51"/>
+<wire x1="-2.4" y1="-1.4" x2="-2.4" y2="1.9" width="0.2032" layer="51"/>
+<wire x1="-2.4" y1="1.9" x2="2.4" y2="1.9" width="0.2032" layer="51"/>
+<wire x1="2.4" y1="-1.4" x2="-2.4" y2="-1.4" width="0.2032" layer="51"/>
+<smd name="2" x="-0.635" y="-2.6" dx="0.6" dy="2.2" layer="1"/>
+<smd name="7" x="-0.635" y="2.6" dx="0.6" dy="2.2" layer="1"/>
+<smd name="1" x="-1.905" y="-2.6" dx="0.6" dy="2.2" layer="1"/>
+<smd name="3" x="0.635" y="-2.6" dx="0.6" dy="2.2" layer="1"/>
+<smd name="4" x="1.905" y="-2.6" dx="0.6" dy="2.2" layer="1"/>
+<smd name="8" x="-1.905" y="2.6" dx="0.6" dy="2.2" layer="1"/>
+<smd name="6" x="0.635" y="2.6" dx="0.6" dy="2.2" layer="1"/>
+<smd name="5" x="1.905" y="2.6" dx="0.6" dy="2.2" layer="1"/>
+<text x="-3.175" y="-1.905" size="1.27" layer="25" rot="R90">&gt;NAME</text>
+<text x="4.445" y="-1.905" size="1.27" layer="27" rot="R90">&gt;VALUE</text>
+<rectangle x1="-2.1501" y1="-3.1001" x2="-1.6599" y2="-2" layer="51"/>
+<rectangle x1="-0.8801" y1="-3.1001" x2="-0.3899" y2="-2" layer="51"/>
+<rectangle x1="0.3899" y1="-3.1001" x2="0.8801" y2="-2" layer="51"/>
+<rectangle x1="1.6599" y1="-3.1001" x2="2.1501" y2="-2" layer="51"/>
+<rectangle x1="1.6599" y1="2" x2="2.1501" y2="3.1001" layer="51"/>
+<rectangle x1="0.3899" y1="2" x2="0.8801" y2="3.1001" layer="51"/>
+<rectangle x1="-0.8801" y1="2" x2="-0.3899" y2="3.1001" layer="51"/>
+<rectangle x1="-2.1501" y1="2" x2="-1.6599" y2="3.1001" layer="51"/>
+</package>
+<package name="TSSOP10">
+<wire x1="-1.8646" y1="-2.2828" x2="1.8646" y2="-2.2828" width="0.1524" layer="21"/>
+<wire x1="1.8646" y1="2.2828" x2="1.8646" y2="-2.2828" width="0.1524" layer="21"/>
+<wire x1="1.8646" y1="2.2828" x2="-1.8646" y2="2.2828" width="0.1524" layer="21"/>
+<wire x1="-1.8646" y1="-2.2828" x2="-1.8646" y2="2.2828" width="0.1524" layer="21"/>
+<wire x1="-1.636" y1="-2.0542" x2="1.636" y2="-2.0542" width="0.0508" layer="21"/>
+<wire x1="1.636" y1="2.0542" x2="1.636" y2="-2.0542" width="0.0508" layer="21"/>
+<wire x1="1.636" y1="2.0542" x2="-1.636" y2="2.0542" width="0.0508" layer="21"/>
+<wire x1="-1.636" y1="-2.0542" x2="-1.636" y2="2.0542" width="0.0508" layer="21"/>
+<circle x="-0.9756" y="-1.2192" radius="0.4572" width="0.1524" layer="21"/>
+<smd name="1" x="-1.3" y="-2.9178" dx="0.35" dy="1.2" layer="1"/>
+<smd name="2" x="-0.65" y="-2.9178" dx="0.35" dy="1.2" layer="1"/>
+<smd name="3" x="0" y="-2.9178" dx="0.35" dy="1.2" layer="1"/>
+<smd name="4" x="0.65" y="-2.9178" dx="0.35" dy="1.2" layer="1"/>
+<smd name="5" x="1.3" y="-2.9178" dx="0.35" dy="1.2" layer="1"/>
+<smd name="6" x="1.3" y="2.9178" dx="0.35" dy="1.2" layer="1"/>
+<smd name="7" x="0.65" y="2.9178" dx="0.35" dy="1.2" layer="1"/>
+<smd name="8" x="0" y="2.9178" dx="0.35" dy="1.2" layer="1"/>
+<smd name="9" x="-0.65" y="2.9178" dx="0.35" dy="1.2" layer="1"/>
+<smd name="10" x="-1.3" y="2.9178" dx="0.35" dy="1.2" layer="1"/>
+<text x="-2.2456" y="-2.0828" size="1.016" layer="25" ratio="10" rot="R90">&gt;NAME</text>
+<text x="3.2362" y="-2.0828" size="1.016" layer="27" ratio="10" rot="R90">&gt;VALUE</text>
+<rectangle x1="-1.4016" y1="-3.121" x2="-1.1984" y2="-2.2828" layer="51"/>
+<rectangle x1="-0.7516" y1="-3.121" x2="-0.5484" y2="-2.2828" layer="51"/>
+<rectangle x1="-0.1016" y1="-3.121" x2="0.1016" y2="-2.2828" layer="51"/>
+<rectangle x1="0.5484" y1="-3.121" x2="0.7516" y2="-2.2828" layer="51"/>
+<rectangle x1="1.1984" y1="-3.121" x2="1.4016" y2="-2.2828" layer="51"/>
+<rectangle x1="1.1984" y1="2.2828" x2="1.4016" y2="3.121" layer="51"/>
+<rectangle x1="0.5484" y1="2.2828" x2="0.7516" y2="3.121" layer="51"/>
+<rectangle x1="-0.1016" y1="2.2828" x2="0.1016" y2="3.121" layer="51"/>
+<rectangle x1="-0.7516" y1="2.2828" x2="-0.5484" y2="3.121" layer="51"/>
+<rectangle x1="-1.4016" y1="2.2828" x2="-1.1984" y2="3.121" layer="51"/>
+</package>
+</packages>
+<symbols>
+<symbol name="BLE113-A">
+<description>&lt;p&gt;Bluegiga BLE113-A symbol with pins arranged into logical groups.&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;Last updated 2014-01-04 by Jeff Rowberg&lt;br /&gt;&lt;a href="https://github.com/jrowberg/sf-oshw"&gt;https://github.com/jrowberg/sf-oshw&lt;/em&gt;&lt;/p&gt;</description>
+<wire x1="-15.24" y1="20.32" x2="15.24" y2="20.32" width="0.254" layer="94"/>
+<wire x1="15.24" y1="20.32" x2="15.24" y2="-20.32" width="0.254" layer="94"/>
+<wire x1="15.24" y1="-20.32" x2="-15.24" y2="-20.32" width="0.254" layer="94"/>
+<wire x1="-15.24" y1="-20.32" x2="-15.24" y2="20.32" width="0.254" layer="94"/>
+<wire x1="12.7" y1="18.796" x2="5.842" y2="18.796" width="0.127" layer="97"/>
+<pin name="AVDD" x="-17.78" y="15.24" visible="pin" length="short" direction="pwr"/>
+<pin name="DVDD" x="-17.78" y="12.7" visible="pin" length="short" direction="pwr"/>
+<pin name="GND" x="-17.78" y="17.78" visible="pin" length="short" direction="pwr"/>
+<pin name="P0_0" x="-17.78" y="0" visible="pin" length="short"/>
+<pin name="P0_1" x="-17.78" y="-2.54" visible="pin" length="short"/>
+<pin name="P0_2" x="-17.78" y="-5.08" visible="pin" length="short"/>
+<pin name="P0_3" x="-17.78" y="-7.62" visible="pin" length="short"/>
+<pin name="P0_4" x="-17.78" y="-10.16" visible="pin" length="short"/>
+<pin name="P0_5" x="-17.78" y="-12.7" visible="pin" length="short"/>
+<pin name="P0_6" x="-17.78" y="-15.24" visible="pin" length="short"/>
+<pin name="P0_7" x="-17.78" y="-17.78" visible="pin" length="short"/>
+<pin name="P1_0" x="17.78" y="0" visible="pin" length="short" rot="R180"/>
+<pin name="P1_1" x="17.78" y="-2.54" visible="pin" length="short" rot="R180"/>
+<pin name="P1_2" x="17.78" y="-5.08" visible="pin" length="short" rot="R180"/>
+<pin name="P1_3" x="17.78" y="-7.62" visible="pin" length="short" rot="R180"/>
+<pin name="P1_4" x="17.78" y="-10.16" visible="pin" length="short" rot="R180"/>
+<pin name="P1_5" x="17.78" y="-12.7" visible="pin" length="short" rot="R180"/>
+<pin name="P1_6" x="17.78" y="-15.24" visible="pin" length="short" rot="R180"/>
+<pin name="P1_7" x="17.78" y="-17.78" visible="pin" length="short" rot="R180"/>
+<pin name="P2_0" x="17.78" y="10.16" visible="pin" length="short" rot="R180"/>
+<pin name="P2_1" x="17.78" y="7.62" visible="pin" length="short" rot="R180"/>
+<pin name="P2_2" x="17.78" y="5.08" visible="pin" length="short" rot="R180"/>
+<pin name="RESET" x="17.78" y="17.78" visible="pin" length="short" direction="in" rot="R180"/>
+<pin name="SCL" x="-17.78" y="7.62" visible="pin" length="short" function="clk"/>
+<pin name="SDA" x="-17.78" y="5.08" visible="pin" length="short"/>
+<text x="-15.24" y="21.59" size="2.54" layer="95">&gt;NAME</text>
+<text x="-15.24" y="-24.13" size="2.54" layer="96">&gt;VALUE</text>
+</symbol>
+<symbol name="PCA9615">
+<wire x1="-10.16" y1="10.16" x2="12.7" y2="10.16" width="0.254" layer="94"/>
+<wire x1="12.7" y1="10.16" x2="12.7" y2="-12.7" width="0.254" layer="94"/>
+<wire x1="12.7" y1="-12.7" x2="-10.16" y2="-12.7" width="0.254" layer="94"/>
+<wire x1="-10.16" y1="-12.7" x2="-10.16" y2="10.16" width="0.254" layer="94"/>
+<pin name="SCL" x="-15.24" y="0" length="middle"/>
+<pin name="SDA" x="-15.24" y="-5.08" length="middle"/>
+<pin name="EN" x="-15.24" y="-10.16" length="middle"/>
+<pin name="DSCLP" x="17.78" y="7.62" length="middle" rot="R180"/>
+<pin name="DSCLM" x="17.78" y="5.08" length="middle" rot="R180"/>
+<pin name="DSDAP" x="17.78" y="0" length="middle" rot="R180"/>
+<pin name="DSDAM" x="17.78" y="-2.54" length="middle" rot="R180"/>
+<pin name="VDDA" x="-15.24" y="7.62" length="middle" direction="pwr"/>
+<pin name="VDDB" x="-15.24" y="5.08" length="middle" direction="pwr"/>
+<pin name="GND" x="17.78" y="-10.16" length="middle" direction="pwr" rot="R180"/>
+<text x="-10.16" y="-15.24" size="1.27" layer="96">&gt;VALUE</text>
+<text x="-10.16" y="10.668" size="1.27" layer="95">&gt;NAME</text>
+</symbol>
+<symbol name="PCA9513">
+<wire x1="-10.16" y1="10.16" x2="12.7" y2="10.16" width="0.254" layer="94"/>
+<wire x1="12.7" y1="10.16" x2="12.7" y2="-12.7" width="0.254" layer="94"/>
+<wire x1="12.7" y1="-12.7" x2="-10.16" y2="-12.7" width="0.254" layer="94"/>
+<wire x1="-10.16" y1="-12.7" x2="-10.16" y2="10.16" width="0.254" layer="94"/>
+<pin name="SDAIN" x="-15.24" y="2.54" length="middle"/>
+<pin name="SCLIN" x="-15.24" y="-2.54" length="middle"/>
+<pin name="ENABLE" x="-15.24" y="-10.16" length="middle"/>
+<pin name="READY" x="17.78" y="7.62" length="middle" rot="R180"/>
+<pin name="SDAOUT" x="17.78" y="2.54" length="middle" rot="R180"/>
+<pin name="SCLOUT" x="17.78" y="-2.54" length="middle" rot="R180"/>
+<pin name="VCC" x="-15.24" y="7.62" length="middle" direction="pwr"/>
+<pin name="GND" x="17.78" y="-10.16" length="middle" direction="pwr" rot="R180"/>
+<text x="-10.16" y="-15.24" size="1.27" layer="96">&gt;VALUE</text>
+<text x="-10.16" y="10.668" size="1.27" layer="95">&gt;NAME</text>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="BLE113" prefix="U">
+<description>&lt;p&gt;Bluetooth Low Energy single-mode module - Bluetooth 4.0 (CC2541). BLE113-A variant has an on-module ceramic chip antenna.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;BLE113-A variant includes keepout/restrict area. Antenna edge of the module should be flush up against the edge of the PCB. See datasheet for variant layout details.&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;The BLE113 is a Bluetooth Smart module targeted for small and low-power sensors and accessories. It integrates all features required for a Bluetooth Smart application, including Bluetooth radio, software stack, and GATT-based profiles. The BLE113 Bluetooth Smart module can also host end-user applications, which means no external micro controller is required in size or price constrained devices. Moreover, it has flexible hardware interfaces to connect to different peripherals and sensors and can be powered directly from a standard 3V coin cell battery or a pair of AAA batteries.&lt;/p&gt;
+&lt;p&gt;In the lowest power sleep mode it merely consumes 500 nA and will wake up within a few hundred microseconds.&lt;/p&gt;
+&lt;p&gt;The BLE113 Bluetooth Smart module conusmer approximately 30% less power and is smaller than the BLE112 Bluetooth Smart Module.&lt;/p&gt;
+&lt;p&gt;&lt;a href="http://www.bluegiga.com/en-US/products/bluetooth-4.0-modules/ble113-bluetooth--smart-module"&gt;http://www.bluegiga.com/en-US/products/bluetooth-4.0-modules/ble113-bluetooth--smart-module&lt;/a&gt;&lt;br /&gt;&lt;a href="https://github.com/jrowberg/sf-oshw"&gt;https://github.com/jrowberg/sf-oshw&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;Last updated 2014-01-04 by Jeff Rowberg &amp;lt;jeff@rowberg.net&amp;gt;&lt;/em&gt;&lt;/p&gt;</description>
+<gates>
+<gate name="G$1" symbol="BLE113-A" x="0" y="0"/>
+</gates>
+<devices>
+<device name="-A" package="BLE113-A">
+<connects>
+<connect gate="G$1" pin="AVDD" pad="AVDD"/>
+<connect gate="G$1" pin="DVDD" pad="DVDD"/>
+<connect gate="G$1" pin="GND" pad="GND GND@2 GND@3 GND@4 GND@5 GND@6 GND@7 GND@8 GND@9 GND@10"/>
+<connect gate="G$1" pin="P0_0" pad="P0_0"/>
+<connect gate="G$1" pin="P0_1" pad="P0_1"/>
+<connect gate="G$1" pin="P0_2" pad="P0_2"/>
+<connect gate="G$1" pin="P0_3" pad="P0_3"/>
+<connect gate="G$1" pin="P0_4" pad="P0_4"/>
+<connect gate="G$1" pin="P0_5" pad="P0_5"/>
+<connect gate="G$1" pin="P0_6" pad="P0_6"/>
+<connect gate="G$1" pin="P0_7" pad="P0_7"/>
+<connect gate="G$1" pin="P1_0" pad="P1_0"/>
+<connect gate="G$1" pin="P1_1" pad="P1_1"/>
+<connect gate="G$1" pin="P1_2" pad="P1_2"/>
+<connect gate="G$1" pin="P1_3" pad="P1_3"/>
+<connect gate="G$1" pin="P1_4" pad="P1_4"/>
+<connect gate="G$1" pin="P1_5" pad="P1_5"/>
+<connect gate="G$1" pin="P1_6" pad="P1_6"/>
+<connect gate="G$1" pin="P1_7" pad="P1_7"/>
+<connect gate="G$1" pin="P2_0" pad="P2_0"/>
+<connect gate="G$1" pin="P2_1" pad="P2_1"/>
+<connect gate="G$1" pin="P2_2" pad="P2_2"/>
+<connect gate="G$1" pin="RESET" pad="RESET"/>
+<connect gate="G$1" pin="SCL" pad="SCL"/>
+<connect gate="G$1" pin="SDA" pad="SDA"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="ANTENNA" value="On-module ceramic chip antenna"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="PCA9615" prefix="IC">
+<gates>
+<gate name="G$1" symbol="PCA9615" x="0" y="0"/>
+</gates>
+<devices>
+<device name="DP" package="TSSOP10">
+<connects>
+<connect gate="G$1" pin="DSCLM" pad="6"/>
+<connect gate="G$1" pin="DSCLP" pad="7"/>
+<connect gate="G$1" pin="DSDAM" pad="9"/>
+<connect gate="G$1" pin="DSDAP" pad="8"/>
+<connect gate="G$1" pin="EN" pad="3"/>
+<connect gate="G$1" pin="GND" pad="5"/>
+<connect gate="G$1" pin="SCL" pad="4"/>
+<connect gate="G$1" pin="SDA" pad="2"/>
+<connect gate="G$1" pin="VDDA" pad="1"/>
+<connect gate="G$1" pin="VDDB" pad="10"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="PCA9514A" prefix="IC">
+<gates>
+<gate name="G$1" symbol="PCA9513" x="0" y="0"/>
+</gates>
+<devices>
+<device name="D" package="SO8">
+<connects>
+<connect gate="G$1" pin="ENABLE" pad="1"/>
+<connect gate="G$1" pin="GND" pad="4"/>
+<connect gate="G$1" pin="READY" pad="5"/>
+<connect gate="G$1" pin="SCLIN" pad="3"/>
+<connect gate="G$1" pin="SCLOUT" pad="2"/>
+<connect gate="G$1" pin="SDAIN" pad="6"/>
+<connect gate="G$1" pin="SDAOUT" pad="7"/>
+<connect gate="G$1" pin="VCC" pad="8"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="DP" package="TSSOP8">
+<connects>
+<connect gate="G$1" pin="ENABLE" pad="1"/>
+<connect gate="G$1" pin="GND" pad="4"/>
+<connect gate="G$1" pin="READY" pad="5"/>
+<connect gate="G$1" pin="SCLIN" pad="3"/>
+<connect gate="G$1" pin="SCLOUT" pad="2"/>
+<connect gate="G$1" pin="SDAIN" pad="6"/>
+<connect gate="G$1" pin="SDAOUT" pad="7"/>
+<connect gate="G$1" pin="VCC" pad="8"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
+</drawing>
+</eagle>
